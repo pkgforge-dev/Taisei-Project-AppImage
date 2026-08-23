@@ -10,10 +10,10 @@ pacman -Syu --noconfirm \
     boost    \
     glad     \
     glslang  \
-    sdl3     \
     libzip   \
     mimalloc \
     opusfile \
+	sdl3     \
     shaderc
 
 echo "Installing debloated packages..."
