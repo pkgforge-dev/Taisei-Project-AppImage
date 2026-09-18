@@ -13,7 +13,8 @@ export STARTUPWMCLASS=org.taisei_project.Taisei
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/local/bin/taisei /usr/local/share/taisei
+#quick-sharun /usr/local/bin/taisei /usr/local/share/taisei
+quick-sharun /usr/local/taisei /usr/local/data
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
