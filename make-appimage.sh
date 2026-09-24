@@ -14,7 +14,10 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 #quick-sharun /usr/local/bin/taisei /usr/local/share/taisei
-quick-sharun /usr/local/taisei /usr/local/data
+quick-sharun /usr/local/taisei #/usr/local/data
+mkdir -p ./AppDir/bin
+rm -rf ./AppDir/bin/data
+cp -a /usr/local/data ./AppDir/bin/data
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
